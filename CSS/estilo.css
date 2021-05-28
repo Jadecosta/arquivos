@@ -10,9 +10,12 @@ body{
   color: red;
   font: arial;
 }
+h1{
+  color: red;
+}
  
 h2{
-    font-family: sans-serif;
+  font-family: sans-serif;
   }
   
 p{
@@ -21,6 +24,23 @@ p{
 	}
 	
 h3{
-    color: red;
+  color: red;
 	}
   
+.imagem{
+  display: table-cell;
+  float: left;
+}
+
+.paragrafo{
+  display: table-cell;
+  float: left;
+  width: 675px;
+  margin-left: 10px;
+  font-family: arial;
+}
+
+.corpo{
+  display: table;
+  font-family: arial;
+}
