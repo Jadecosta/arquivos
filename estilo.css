@@ -1,0 +1,40 @@
+body{
+    background-color: Skyblue;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%; 
+    margin-bottom: 0%;
+    }
+
+#Titulo{
+  color: red;
+  font: arial; 
+}
+ 
+h2, h3{
+  font-family: sans-serif;
+  color: red;
+  }
+  
+p{
+  font-family: monospace;
+  text-align: left;
+	}
+  
+.imagem{
+  display: table-cell;
+  float: left;
+}
+
+.paragrafo{
+  display: table-cell;
+  float: left;
+  width: 675px;
+  margin-left: 10px;
+  font-family: arial;
+}
+
+.corpo{
+  display: table;
+  font-family: arial;
+}
