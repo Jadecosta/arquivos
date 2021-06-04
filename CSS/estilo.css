@@ -6,25 +6,19 @@ body{
     margin-bottom: 0%;
     }
 
-#empresa{
+#Titulo{
   color: red;
-  font: arial;
-}
-h1{
-  color: red;
+  font: arial; 
 }
  
-h2{
+h2, h3{
   font-family: sans-serif;
+  color: red;
   }
   
 p{
-	font-family: monospace;
-	text-align: left;
-	}
-	
-h3{
-  color: red;
+  font-family: monospace;
+  text-align: left;
 	}
   
 .imagem{
