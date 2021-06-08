@@ -7,19 +7,19 @@ body{
     }
 
 #Titulo{
-  color: red;
+  color: blue;
   font: arial; 
 }
  
 h2, h3{
-  font-family: sans-serif;
+  font-family: arial;
   color: red;
   }
   
 p{
   font-family: arial;
   text-align: left;
-	}
+}
   
 .imagem{
   display: table-cell;
