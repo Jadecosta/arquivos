@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0"> 
+		<title>Calculadora</title>
+    </head>
+	
+    <body>
+
+       <div>
+            <h1>Calculadora</h1>
+			<p>Digite os números e escolha a operação: </p>
+	   
+	<section> 
+           <input type="number" name="txt1" id="txt1" placeholder="Primeiro Valor"><br>
+		   <br>
+           <input type="number" name="txt2" id="txt2" placeholder="Segundo Valor"><br>
+		   <br>
+           
+	   
+       <table>
+            <td>
+                <input type="button"  onclick="Somar()" value="+">
+                <input type="button"  onclick="Subtrair()" value="-">
+				<input type="button"  onclick="Multiplicar()" value="*">
+                <input type="button"  onclick="Dividir()" value="/">
+				<input type="button"  onclick="limpar()" value="Limpar">
+            </td>
+        </table> 
+		
+		<div id="res"> 
+		</div>	
+		
+		<script>
+    function Somar(){
+        var x = document.getElementById('txt1').value;
+        var y = document.getElementById('txt2').value;
+        
+            var resultado = Number(y)+ Number(x)
+
+            res.innerHTML = `O Resultado de ${x} + ${y} = ${resultado}`
+        }
+    function Subtrair(){
+        var x = document.getElementById('txt1').value;
+        var y = document.getElementById('txt2').value;
+        
+            var resultado = x-y
+
+           res.innerHTML = `O Resultado de ${x} - ${y} = ${resultado}`
+        }
+    function Multiplicar(){
+        var x = document.getElementById('txt1').value;
+        var y = document.getElementById('txt2').value;
+        
+            var resultado = x*y
+
+           res.innerHTML = `O Resultado de ${x} * ${y} = ${resultado}`
+        }
+    function Dividir(){
+        var x = document.getElementById('txt1').value;
+        var y = document.getElementById('txt2').value;
+        
+            var resultado = x/y
+
+           res.innerHTML = `O Resultado de ${x} / ${y} = ${resultado}`
+        }
+    function limpar(){
+            res.innerHTML = ' '
+			document.getElementById('txt1').value = ' '
+			document.getElementById('txt2').value = ' '
+        }
+
+</script>
+</html>
